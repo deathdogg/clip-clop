@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
-
+import Combine
+import AVFoundation
 @main
 struct clip_clopApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+				
+		}
+	}
 }
