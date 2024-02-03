@@ -29,6 +29,13 @@ enum TimeSignatures: String, Hashable, CaseIterable, Codable {
 		return result
 	}
 }
+struct CustomTimeSignature: CustomStringConvertible {
+	var description: String {
+		"\(top)/\(bottom)"
+	}
+	let top: Int
+	let bottom: Int
+}
 struct Measure: Hashable {
 	let beats: Int
 	let subdivisions = 0

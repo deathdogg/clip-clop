@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C513A9092B6DCC75002BACFA /* 1024.png in Resources */ = {isa = PBXBuildFile; fileRef = C513A9082B6DCC75002BACFA /* 1024.png */; };
+		C513A90B2B6DD469002BACFA /* CustomTempo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513A90A2B6DD469002BACFA /* CustomTempo.swift */; };
 		C51EA1042B6DCA9D00D827FB /* CIcon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = C51EA1032B6DCA9D00D827FB /* CIcon_120.png */; };
 		C5B09B082B6735BE00C3AEE4 /* clip_clopApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B09B072B6735BE00C3AEE4 /* clip_clopApp.swift */; };
 		C5B09B0A2B6735BE00C3AEE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B09B092B6735BE00C3AEE4 /* ContentView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		C513A9082B6DCC75002BACFA /* 1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024.png; sourceTree = "<group>"; };
+		C513A90A2B6DD469002BACFA /* CustomTempo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTempo.swift; sourceTree = "<group>"; };
 		C51EA1032B6DCA9D00D827FB /* CIcon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CIcon_120.png; sourceTree = "<group>"; };
 		C5B09B042B6735BE00C3AEE4 /* clip-clop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clip-clop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B09B072B6735BE00C3AEE4 /* clip_clopApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clip_clopApp.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				C5B09B152B67367E00C3AEE4 /* MetronomeView.swift */,
 				C5B09B192B675B8C00C3AEE4 /* TempoSelectionView.swift */,
 				C5B09B172B6736D900C3AEE4 /* TimeSig.swift */,
+				C513A90A2B6DD469002BACFA /* CustomTempo.swift */,
 			);
 			path = "clip-clop";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C513A90B2B6DD469002BACFA /* CustomTempo.swift in Sources */,
 				C5B09B162B67367E00C3AEE4 /* MetronomeView.swift in Sources */,
 				C5B09B0A2B6735BE00C3AEE4 /* ContentView.swift in Sources */,
 				C5B09B182B6736DA00C3AEE4 /* TimeSig.swift in Sources */,

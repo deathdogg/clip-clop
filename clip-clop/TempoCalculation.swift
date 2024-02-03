@@ -32,6 +32,9 @@ struct TempoCalculation {
 		return result
 	}
 	static func playClick(_ isPlaying: Bool) {
+		if ts != nil && ts == .custom {
+			return
+		}
 		if !isPlaying {
 			Self.mainTimer.cancel()
 			return
