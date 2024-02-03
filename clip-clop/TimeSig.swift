@@ -17,7 +17,12 @@ enum TimeSignatures: String, Hashable, CaseIterable, Codable {
 	case nineEight = "9/8"
 	case custom
 	func getInfo() -> TimeSignature {
-		let numbers = self.rawValue.split(separator: "/")
+		var numbers: [Substring]
+		if self == .custom {
+			numbers = TimeSignatures.common.rawValue.split(separator: "/")
+		} else {
+			numbers = self.rawValue.split(separator: "/")
+		}
 		var result: TimeSignature
 		result.0 = Int(String(numbers[0]))!
 		result.1 = Int(String(numbers[1]))!
